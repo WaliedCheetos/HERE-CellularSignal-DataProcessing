@@ -26,9 +26,9 @@ def _prepare_signature():
         l = [line.split("=") for line in f.readlines()]
         properties = {key.strip(): value.strip() for key, value in l}
     # key = properties["here.access.key.id"].strip()
-    key = "D1xJsdaX3o-B4VA4eIKY3A"
+    key = "***"
     # print(key)
-    secret = "qxBwHkZ4zyiPdm8WhW5xo-x_6s0Ms3DEXAx72imCc2W44E36_xEWr4F_G37IkkbStKaolcv3zpRFyJ4aXjQoeQ"
+    secret = "***"
     # secret = properties["here.access.key.secret"].strip()
     # print(secret)
     normalized_url = urllib.parse.quote_plus(url)
